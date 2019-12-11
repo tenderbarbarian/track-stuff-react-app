@@ -8403,11 +8403,6 @@ webidl-conversions@^4.0.2:
   resolved "https://registry.yarnpkg.com/webidl-conversions/-/webidl-conversions-4.0.2.tgz#a855980b1f0b6b359ba1d5d9fb39ae941faa63ad"
   integrity sha512-YQ+BmxuTgd6UXZW3+ICGfyqRyHXVlD5GtQr5+qjiNW7bF0cqrzX500HVXPBOvgXb5YnzDd+h0zqyv61KUD7+Sg==
 
-webpac@^1.0.1:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/webpac/-/webpac-1.0.1.tgz#b4d77e768e52e4ee0d10448bc2de306ac51938a4"
-  integrity sha1-tNd+do5S5O4NEESLwt4wasUZOKQ=
-
 webpack-cli@^3.3.10:
   version "3.3.10"
   resolved "https://registry.yarnpkg.com/webpack-cli/-/webpack-cli-3.3.10.tgz#17b279267e9b4fb549023fae170da8e6e766da13"
