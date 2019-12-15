@@ -2,12 +2,14 @@ import React from 'react';
 import ExpenseForm from './ExpenseForm';
 import { connect } from 'react-redux';
 import { startAddExpense } from '../actions/expenses';
+import { history } from '../routers/AppRouter';
 
 export class AddExpensePage extends React.Component {
 	onSubmit = (expense) => {
 		//props.dispatch(startAddExpense(expense));
 		this.props.startAddExpense(expense); //used with mapDispatchTo props. Doing it this way so that it's easier to test
-		this.props.history.push('/'); //go to the home page
+		console.log('redirect');
+		this.props.history.push('/dashboard'); //go to the home page
 	};
 	render() {
 		return (
