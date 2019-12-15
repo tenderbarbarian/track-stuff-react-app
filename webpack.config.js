@@ -16,19 +16,7 @@ module.exports = (env) => {
 
 	return {
 		mode: isProduction ? env : 'development',
-		entry: './src/app.js',
-		// optimization: {
-		//     splitChunks: {
-		//       cacheGroups: {
-		//         styles: {
-		//           name: 'styles',
-		//           test: /\.css$/,
-		//           chunks: 'all',
-		//           enforce: true,
-		//         },
-		//       },
-		//     },
-		//   },
+		entry: [ 'babel-polyfill', './src/app.js' ],
 		plugins: [
 			new MiniCssExtractPlugin({
 				filename: 'styles.css'

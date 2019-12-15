@@ -1,0 +1,24 @@
+.button {
+	color: white;
+	background: $blue;
+	outline: none;
+	border: none;
+	border-radius: 2px;
+	box-shadow: none;
+	font-weight: 300;
+	text-decoration: none;
+	font-size: $font-size-large;
+	padding: $s-size $l-size;
+	display: inline-block;
+	line-height: 1;
+	&:hover {
+		opacity: .8;
+	}
+}
+
+.button--simple {
+	background: none;
+}
+.button--grey {
+	background: #888888;
+}
